@@ -1,0 +1,7 @@
+
+/* Reusable component aliases and small utilities */
+.container-wide{width:min(1320px,calc(100% - 40px));margin:auto}
+.text-center{text-align:center}.muted{color:var(--muted)}.mt-20{margin-top:20px}.mt-30{margin-top:30px}.mb-20{margin-bottom:20px}
+.kicker{font-size:.76rem;font-weight:800;letter-spacing:.08em;text-transform:uppercase;color:var(--accent-strong)}
+.icon-box svg{width:22px;height:22px}.card-pad{padding:24px}
+.table-status{font-weight:800}.status-good{color:var(--success)}.status-warn{color:var(--warning)}
