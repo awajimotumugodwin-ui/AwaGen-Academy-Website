@@ -1,7 +1,7 @@
 
-/* Reusable component aliases and small utilities */
-.container-wide{width:min(1320px,calc(100% - 40px));margin:auto}
-.text-center{text-align:center}.muted{color:var(--muted)}.mt-20{margin-top:20px}.mt-30{margin-top:30px}.mb-20{margin-bottom:20px}
-.kicker{font-size:.76rem;font-weight:800;letter-spacing:.08em;text-transform:uppercase;color:var(--accent-strong)}
-.icon-box svg{width:22px;height:22px}.card-pad{padding:24px}
-.table-status{font-weight:800}.status-good{color:var(--success)}.status-warn{color:var(--warning)}
+/* Reusable component refinements */
+.service-card,.news-card,.event-card,.portal-card,.profile-card{height:100%}
+.portal-card{display:flex;flex-direction:column}.portal-card .arrow{margin-top:auto}
+.news-meta{display:flex;gap:10px;align-items:center;color:var(--muted);font-size:.78rem;margin-bottom:10px}
+.kpi{display:flex;justify-content:space-between;align-items:center;gap:12px}
+.status{font-size:.72rem;padding:4px 8px;border-radius:99px;background:#eaf8ef;color:var(--success);font-weight:800}
